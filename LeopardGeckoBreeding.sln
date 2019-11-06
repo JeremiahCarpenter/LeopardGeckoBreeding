@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{A6E9840E-D737-4650-AB48-ECB118B0A183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{125C892C-5BD4-4842-BEF8-6D11E38C26C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeckoWebsite", "GeckoWebsite\GeckoWebsite.csproj", "{2DACB202-6851-45D4-BB62-D7DF734C4108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{994411EB-8B4C-4FD8-B80B-B04BF84DA983}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A8589EF3-53FE-4EEE-98E1-21DE3A2DF3B7}"
+	ProjectSection(SolutionItems) = preProject
+		LeopardGeckoBreeding.sql = LeopardGeckoBreeding.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E9840E-D737-4650-AB48-ECB118B0A183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E9840E-D737-4650-AB48-ECB118B0A183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E9840E-D737-4650-AB48-ECB118B0A183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E9840E-D737-4650-AB48-ECB118B0A183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125C892C-5BD4-4842-BEF8-6D11E38C26C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125C892C-5BD4-4842-BEF8-6D11E38C26C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125C892C-5BD4-4842-BEF8-6D11E38C26C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125C892C-5BD4-4842-BEF8-6D11E38C26C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DACB202-6851-45D4-BB62-D7DF734C4108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DACB202-6851-45D4-BB62-D7DF734C4108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DACB202-6851-45D4-BB62-D7DF734C4108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DACB202-6851-45D4-BB62-D7DF734C4108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994411EB-8B4C-4FD8-B80B-B04BF84DA983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994411EB-8B4C-4FD8-B80B-B04BF84DA983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994411EB-8B4C-4FD8-B80B-B04BF84DA983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994411EB-8B4C-4FD8-B80B-B04BF84DA983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5099B4FF-301F-4CE5-B235-90A466083A4E}
+	EndGlobalSection
+EndGlobal
